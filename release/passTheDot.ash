@@ -17,7 +17,7 @@ while( get_property( "_perilsForeseen" ).to_int() < 3 )
 		{
 			print(sortedlist[0]);
 			print(get_player_id(sortedlist[0]));
-			cli_execute( "throw peridot of peril at " + get_player_id(sortedlist[0]) );
+			cli_execute( "try; throw peridot of peril at " + get_player_id(sortedlist[0]) );
 			wait(3);
 		}
 	}
